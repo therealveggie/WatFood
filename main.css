@@ -1,0 +1,81 @@
+/*!
+ * Bootswatch v4.0.0-beta.2
+ * Homepage: https://bootswatch.com
+ * Copyright 2012-2017 Thomas Park
+ * Licensed under MIT
+ * Based on Bootstrap
+*/
+/*!
+ * Bootstrap v4.0.0-beta.2 (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+ 
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #593196;
+  --pink: #e83e8c;
+  --red: #FC3939;
+  --orange: #fd7e14;
+  --yellow: #EFA31D;
+  --green: #13B955;
+  --teal: #20c997;
+  --cyan: #009CDC;
+  --white: #fff;
+  --gray: #868e96;
+  --gray-dark: #343a40;
+  --primary: #593196;
+  --secondary: #A991D4;
+  --success: #13B955;
+  --info: #009CDC;
+  --warning: #EFA31D;
+  --danger: #FC3939;
+  --light: #F9F8FC;
+  --dark: #17141F;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #444;
+  text-align: left;
+  background-color: #fff;
+}
+
+#bodClass{
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+h1, .h1 {
+  font-size: 2.1875rem;
+}
